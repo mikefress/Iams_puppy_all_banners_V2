@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "AvenirNextHeavy";
+    src: url("fonts/AvenirNext-Heavy.woff2")
+}
+@font-face {
+    font-family: "AvenirNextBold";
+    src: url("fonts/AvenirNext-Bold.woff2")
+}
+@font-face {
+    font-family: "AvenirNextMedium";
+    src: url("fonts/AvenirNext-Medium.woff2")
+}
+body,body * {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0
+}
+* {
+    color: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+img {
+    border: 0
+}
+button,div,img,svg,video {
+    position: absolute;
+    overflow: hidden
+}
+sup {
+    font-size: 8px;
+    line-height: 0px
+}
+#main_container {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    overflow: hidden;
+    width: 300px;
+    height: 250px
+}
+#main_content {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: -1px;
+    left: -1px
+}
+.retina {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top
+}
+.hidden {
+    visibility: hidden
+}
+#default_exit {
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 250px
+}
+:focus {
+    outline: 0
+}
+::-moz-focus-inner {
+    border: 0
+}
+.canvasImage {
+    width: 300px;
+    height: 250px
+}
+#dog {
+    z-index: 2;
+    left: 0px;
+    top: 0px
+}
+#packshot {
+    left: 0px;
+    top: 0px
+}
+#logo {
+    left: 8px;
+    top: 8px
+}
+#logo_endframe {
+    left: 146px;
+    top: 67px
+}
+#icon {
+    width: 62px;
+    left: 184px;
+    top: 32px
+}
+.bold {
+    font-family: "AvenirNextBold", sans-serif
+}
+.medium {
+    font-family: "AvenirNextMedium", sans-serif
+}
+#text1 {
+    font-family: "AvenirNextHeavy", sans-serif;
+    font-size: 28px;
+    line-height: 26px;
+    left: 145px;
+    top: 48px;
+    width: 135px;
+    overflow: visible
+}
+#text2 {
+    font-family: "AvenirNextMedium", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    left: 163px;
+    top: 100px;
+    width: 104px;
+    text-align: center;
+    overflow: visible
+}
+#copyright {
+    font-family: "AvenirNextMedium", sans-serif;
+    font-size: 7px;
+    line-height: 9px;
+    left: 10px;
+    top: 233px
+}
+#cta {
+    font-family: "AvenirNextBold", sans-serif;
+    font-size: 14px;
+    line-height: 10px;
+    width: 145px;
+    text-align: center;
+    padding: 10px 12px;
+    color: #029A44;
+    background-color: #ffffff;
+    border-radius: 26px;
+    left: 133px;
+    top: 136px
+}
