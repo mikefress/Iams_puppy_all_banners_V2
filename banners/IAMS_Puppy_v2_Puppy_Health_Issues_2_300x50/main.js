@@ -2,7 +2,7 @@ const easing = 'Power1.easeInOut';
 let startTime;
 var tl;
 const frame1_duration = 4;
-const frame2_duration = 3.5;
+const frame2_duration = 4;
 const ctaDelay = 0.5;
 const frame2_start_time = 4.25;
 const frame3_start_time = 8.75;
