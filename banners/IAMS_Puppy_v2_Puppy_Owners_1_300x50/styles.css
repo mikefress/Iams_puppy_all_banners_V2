@@ -104,19 +104,19 @@ sup {
 }
 #text1 {
     font-family: "AvenirNextHeavy", sans-serif;
-    font-size: 16px;
-    line-height: 15px;
+    font-size: 18px;
+    line-height: 17px;
     left: 10px;
-    top: 11px;
+    top: 9px;
     width: 145px;
     overflow: visible
 }
 #text2 {
     font-family: "AvenirNextMedium", sans-serif;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 11px;
+    line-height: 13px;
     left: 10px;
-    top: 10px;
+    top: 7px;
     width: 146px;
     text-align: left;
     overflow: visible

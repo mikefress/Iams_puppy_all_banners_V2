@@ -80,7 +80,7 @@ sup {
     height: 50px
 }
 #dog {
-    left: 0px;
+    left: -10px;
     top: 0px;
     z-index: 2
 }

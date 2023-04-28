@@ -85,7 +85,7 @@ sup {
 }
 #dog {
     z-index: 2;
-    left: 0px;
+    left: -10px;
     top: 0px
 }
 #packshot {
